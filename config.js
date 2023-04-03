@@ -8,7 +8,7 @@ GexfJS.setParams({
             GEXF files can now be replaced by pre-processed JSON files (use gexf2json.py)
             for faster load time
         */
-	showEdges : true,
+	showEdges : false,
         /*
             Default state of the "show edges" button. Set to null to disable button.
         */
@@ -20,18 +20,18 @@ GexfJS.setParams({
         /*
             Default zoom level. At zoom = 0, the graph should fill a 800x700px zone
          */
-    curvedEdges : true,
+    curvedEdges : false,
         /*
             False for curved edges, true for straight edges
             this setting can't be changed from the User Interface
         */
-    edgeWidthFactor : 1,
+    edgeWidthFactor : 2,
         /*
             Change this parameter for wider or narrower edges
             this setting can't be changed from the User Interface
         */
-    minEdgeWidth : 1,
-    maxEdgeWidth : 50,
+    minEdgeWidth : 3,
+    maxEdgeWidth : 100,
     textDisplayThreshold: 9,
     fontSizeFactor : 1,
     nodeSizeFactor : 1,
